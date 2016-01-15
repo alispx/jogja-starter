@@ -13,7 +13,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 	 * ======================================================================================*/
 	$tokoo_options[] = array(
 		'slug'		=> 'tokoo_general_settings',
-		'label'		=> esc_html__( 'General Settings', 'tokoo' ),
+		'label'		=> esc_html__( 'General Settings', 'jogja' ),
 		'priority'	=> 1,
 		'type' 		=> 'panel'
 	);
@@ -23,7 +23,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 		 * ==================================================== */
 		$tokoo_options[] = array(
 			'slug'		=> 'tokoo_site_settings',
-			'label'		=> esc_html__( 'Site Settings', 'tokoo' ),
+			'label'		=> esc_html__( 'Site Settings', 'jogja' ),
 			'panel' 	=> 'tokoo_general_settings',
 			'priority'	=> 1,
 			'type' 		=> 'section'
@@ -36,7 +36,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 				'slug'		=> 'tokoo_custom_logo',
 				'default'	=> '',
 				'priority'	=> 1,
-				'label'		=> esc_html__( 'Custom Logo', 'tokoo' ),
+				'label'		=> esc_html__( 'Custom Logo', 'jogja' ),
 				'section'	=> 'tokoo_site_settings',
 				'output'    => false,
 				'transport'	=> 'postMessage',
@@ -48,7 +48,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 		 * ==================================================== */
 		$tokoo_options[] = array(
 			'slug'		=> 'tokoo_social_icons_settings',
-			'label'		=> esc_html__( 'Social Icons', 'tokoo' ),
+			'label'		=> esc_html__( 'Social Icons', 'jogja' ),
 			'panel' 	=> 'tokoo_general_settings',
 			'priority'	=> 4,
 			'type' 		=> 'section'
@@ -61,7 +61,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 				'slug'		=> 'tokoo_fb',
 				'default'	=> '',
 				'priority'	=> 1,
-				'label'		=> esc_html__( 'Facebook Username', 'tokoo' ),
+				'label'		=> esc_html__( 'Facebook Username', 'jogja' ),
 				'section'	=> 'tokoo_social_icons_settings',
 				'type' 		=> 'text',
 				'transport'	=> 'refresh',
@@ -70,7 +70,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 				'slug'		=> 'tokoo_tw',
 				'default'	=> '',
 				'priority'	=> 2,
-				'label'		=> esc_html__( 'Twitter Username', 'tokoo' ),
+				'label'		=> esc_html__( 'Twitter Username', 'jogja' ),
 				'section'	=> 'tokoo_social_icons_settings',
 				'type' 		=> 'text',
 				'transport'	=> 'refresh',
@@ -79,7 +79,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 				'slug'		=> 'tokoo_gplus',
 				'default'	=> '',
 				'priority'	=> 5,
-				'label'		=> esc_html__( 'Google Plus Username', 'tokoo' ),
+				'label'		=> esc_html__( 'Google Plus Username', 'jogja' ),
 				'section'	=> 'tokoo_social_icons_settings',
 				'type' 		=> 'text',
 				'transport'	=> 'refresh',
@@ -88,7 +88,7 @@ function jogja_general_settings_data( $tokoo_options ) {
 				'slug'		=> 'tokoo_pinterest',
 				'default'	=> '',
 				'priority'	=> 6,
-				'label'		=> esc_html__( 'Pinterest Username', 'tokoo' ),
+				'label'		=> esc_html__( 'Pinterest Username', 'jogja' ),
 				'section'	=> 'tokoo_social_icons_settings',
 				'type' 		=> 'text',
 				'transport'	=> 'refresh',
