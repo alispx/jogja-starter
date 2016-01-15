@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Jogja_Customizer_Loader' => $baseDir . '/loader/class-customizer-loader.php',
+    'Jogja_Extensions_Loader' => $baseDir . '/loader/class-extensions-loader.php',
     'Jogja_Functions_Loader' => $baseDir . '/loader/class-functions-loader.php',
     'Jogja_Images_Loader' => $baseDir . '/loader/class-images-loader.php',
     'Jogja_Menus_Loader' => $baseDir . '/loader/class-menus-loader.php',

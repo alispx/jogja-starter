@@ -1,5 +1,7 @@
 <?php
 
+if ( class_exists( 'VP_Metabox' ) ) :
+
 /**
  * product type value cars
  *
@@ -329,3 +331,5 @@ $product_details = array(
 );
 
 new VP_Metabox( $product_details );
+
+endif;

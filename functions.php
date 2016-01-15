@@ -10,6 +10,8 @@ define( 'JOGJA_THEME_DIR', get_template_directory() );
 define( 'JOGJA_THEME_URI', get_template_directory_uri() );
 define( 'JOGJA_THEME_INCLUDES_DIR', JOGJA_THEME_DIR . '/includes' );
 define( 'JOGJA_THEME_INCLUDES_URI', JOGJA_THEME_URI . '/includes' );
+define( 'JOGJA_THEME_FRAMEWORK_DIR', JOGJA_THEME_DIR . '/framework' );
+define( 'JOGJA_THEME_FRAMEWORK_URI', JOGJA_THEME_URI . '/framework' );
 define( 'JOGJA_THEME_ASSETS_DIR', JOGJA_THEME_DIR . '/assets' );
 define( 'JOGJA_THEME_ASSETS_URI', JOGJA_THEME_URI . '/assets' );
 define( 'JOGJA_THEME_VERSION', '1.0' );
